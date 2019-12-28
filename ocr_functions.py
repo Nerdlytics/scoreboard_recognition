@@ -140,10 +140,10 @@ def detect_text(img, east, min_confidence=0.5, width=320, height=320, padding=0.
 
     for ((startX, startY, endX, endY), text) in results:
         # show the output image
-        display_ocr_text(startX, startY, endX, endY, text)
+        display_ocr_text(startX, startY, endX, endY, text, orig_img=orig)
 
 
-def display_ocr_text(startX, startY, endX, endY, text):
+def display_ocr_text(startX, startY, endX, endY, text, orig_img):
     # display the text OCR'd by Tesseract
     print("OCR TEXT")
     print("========")
@@ -153,7 +153,7 @@ def display_ocr_text(startX, startY, endX, endY, text):
     # using OpenCV, then draw the text and a bounding box surrounding
     # the text region of the input image
     text = "".join([c if ord(c) < 128 else "" for c in text]).strip()
-    output = orig.copy()
+    output = orig_img.copy()
     cv2.rectangle(output, (startX, startY), (endX, endY), (0, 0, 255), 2)
     cv2.putText(output, text, (startX, startY - 20), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 0, 255), 3)
 
