@@ -141,3 +141,36 @@ def detect_text(img, east, min_confidence=0.5, width=320, height=320, padding=0.
     for ((startX, startY, endX, endY), text) in results:
         # show the output image
         display_ocr_text(startX, startY, endX, endY, text)
+
+
+def display_ocr_text(startX, startY, endX, endY, text):
+    # display the text OCR'd by Tesseract
+    print("OCR TEXT")
+    print("========")
+    print("{}\n".format(text))
+
+    # strip out non-ASCII text so we can draw the text on the image
+    # using OpenCV, then draw the text and a bounding box surrounding
+    # the text region of the input image
+    text = "".join([c if ord(c) < 128 else "" for c in text]).strip()
+    output = orig.copy()
+    cv2.rectangle(output, (startX, startY), (endX, endY), (0, 0, 255), 2)
+    cv2.putText(output, text, (startX, startY - 20), cv2.FONT_HERSHEY_SIMPLEX, 1.2, (0, 0, 255), 3)
+
+    # Show the image with matplotlib instead to avoid crash
+    plt.imshow(output)
+    plt.show()
+
+def ocr_text(img, language="eng", oem="1", psm="7"):
+    # in order to apply Tesseract v4 to OCR text we must supply
+    # (1) a language, (2) an OEM flag of 4, indicating that the we
+    # wish to use the LSTM neural net model for OCR, and finally
+    # (3) an OEM value, in this case, 7 which implies that we are
+    # treating the ROI as a single line of text
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+    config = ("-l "+language+" --oem "+oem+" --psm "+psm)
+    text = pytesseract.image_to_string(img, config=config)
+
+    # add the bounding box coordinates and OCR'd text to the list
+    # of results
+    return(text)
