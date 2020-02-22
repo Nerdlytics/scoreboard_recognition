@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from fuzzywuzzy import fuzz
 
-class scoreboard(bbox, boxes, sport, channel):
+class scoreboard:
     """
     Class for handling scoreboard definitions
     Pre-programmed scoreboards since recognition is going so poorly
@@ -54,9 +54,9 @@ class scoreboard(bbox, boxes, sport, channel):
             self.game_clock = results[4][1]
 
             # Extra clock for some sports
-            if self.sport = "basketball":
+            if self.sport == "basketball":
                 self.shot_clock = results[5][1]
-            if self.sport = "football":
+            if self.sport == "football":
                 self.play_clock = results[5][1]
 
     def translate_team(self, team_text):
@@ -79,5 +79,5 @@ premleague_nbc = scoreboard(bbox=(68,75,720,123),
                                    (500, 0, 720, 48) # Game Clock
                                   ],
                             sport="soccer",
-                            chanel="NBCSports"
+                            channel="NBCSports"
                             )
