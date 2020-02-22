@@ -64,7 +64,6 @@ class scoreboard:
             return team_text
         else:
             possible_teams = self.team_defs
-            possible_teams = possible_teams[possible_teams.sport==self.sport]
             ratios = [fuzz.ratio(team_text.lower(), f.lower()) for f in possible_teams.team_name]
 
             team_loc = [i for i, j in enumerate(ratios) if j == max(ratios)]

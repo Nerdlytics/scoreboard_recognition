@@ -1,652 +1,386 @@
-acronym,team_name,sport
-BOU,AFC Bournemouth,soccer
-ARS,Arsenal,soccer
-AVA,Aston Villa,soccer
-BHA,Brighton Hove Albion,soccer
-BUR,Burnley,soccer
-CHE,Chelsea,soccer
-CRY,Crystal Palace,soccer
-EVE,Everton,soccer
-LEI,Leicester City,soccer
-LIV,Liverpool,soccer
-MCI,Manchester City,soccer
-MUN,Manchester United,soccer
-NEW,Newcastle United,soccer
-NOR,Norwich City,soccer
-SHU,Sheffield United,soccer
-SOU,Southampton,soccer
-TOT,Tottenham Hotspur,soccer
-WAT,Watford,soccer
-WHU,West Ham United,soccer
-WLV,Wolverhampton Wanderers,soccer
-ATL,Atlanta United,soccer
-CHI,Chicago Fire,soccer
-CLR,Colorado Rapids,soccer
-COL,Columbus Crew SC,soccer
-DCU,D.C. United,soccer
-CIN,FC Cincinnati,soccer
-DAL,FC Dallas,soccer
-HOU,Houston Dynamo,soccer
-MIA,Inter Miami,soccer
-LAF,Los Angeles FC,soccer
-LAG,Los Angeles Galaxy,soccer
-MIN,Minnesota United FC,soccer
-MLS,MLS All Stars,soccer
-MTL,Montreal Impact,soccer
-NSC,Nashville SC,soccer
-NER,New England Revolution,soccer
-NYC,New York City,soccer
-NYR,New York Red Bulls,soccer
-ORL,Orlando City,soccer
-PHI,Philadelphia Union,soccer
-POT,Portland Timbers,soccer
-RSL,Real Salt Lake,soccer
-SJE,San Jose Earthquakes,soccer
-SEA,Seattle Sounders,soccer
-SKC,Sporting Kansas City,soccer
-TFC,Toronto FC,soccer
-VAN,Vancouver Whitecaps,soccer
-SF,49ers,football
-CHI,Bears,football
-CIN,Bengals,football
-BUF,Bills,football
-DEN,Broncos,football
-CLE,Browns,football
-ARI,Cardinals,football
-LAC,Chargers,football
-KC,Chiefs,football
-IND,Colts,football
-DAL,Cowboys,football
-MIA,Dolphins,football
-PHI,Eagles,football
-ATL,Falcons,football
-NYG,Giants,football
-JAC,Jaguars,football
-NYJ,Jets,football
-DET,Lions,football
-GB,Packers,football
-CAR,Panthers,football
-NEP,Patriots,football
-OAK,Raiders,football
-LAR,Rams,football
-BAL,Ravens,football
-WAS,Redskins,football
-NO,Saints,football
-SEA,Seahawks,football
-PIT,Steelers,football
-TB,Tampa Bay,football
-HOU,Texans,football
-TEN,Titans,football
-MIN,Vikings,football
-COL,Avalanche,hockey
-CHI,Blackhawks,hockey
-CBJ,Blue Jackets,hockey
-STL,Blues,hockey
-BOS,Bruins,hockey
-MTL,Canadiens,hockey
-VAN,Canucks,hockey
-WSH,Capitals,hockey
-ARI,Coyotes,hockey
-NJD,Devils,hockey
-ANA,Ducks,hockey
-CGY,Flames,hockey
-PHI,Flyers,hockey
-VGK,Golden Knights,hockey
-CAR,Hurricanes,hockey
-NYI,Islanders,hockey
-WPG,Jets,hockey
-LAK,Kings,hockey
-TBL,Lightning,hockey
-TOR,Maple Leafs,hockey
-EDM,Oilers,hockey
-FLA,Panthers,hockey
-PIT,Penguins,hockey
-NSH,Predators,hockey
-NYR,Rangers,hockey
-DET,Red Wings,hockey
-BUF,Sabres,hockey
-OTT,Senators,hockey
-SJS,Sharks,hockey
-DAL,Stars,hockey
-MIN,Wild,hockey
-BC,Boston College,football
-CLEM,Clemson,football
-DUKE,Duke,football
-FSU,Florida State,football
-GT,Georgia Tech,football
-LOU,Louisville,football
-MIA,Miami (FL),football
-NCST,NC State,football
-PITT,Pittsburgh,football
-SYR,Syracuse,football
-UNC,North Carolina,football
-UVA,Virginia,football
-VT,Virginia Tech,football
-WAKE,Wake Forest,football
-ILL,Illinois,football
-IND,Indiana,football
-IOWA,Iowa,football
-MICH,Michigan,football
-MSU,Michigan State,football
-MINN,Minnesota,football
-NEB,Nebraska,football
-NW,Northwestern,football
-OSU,Ohio State,football
-PSU,Penn State,football
-PUR,Purdue,football
-RUTG,Rutgers,football
-UMD,Maryland,football
-WIS,Wisconsin,football
-BAY,Baylor,football
-ISU,Iowa State,football
-KU,Kansas,football
-KSU,Kansas State,football
-OKL,Oklahoma,football
-OKS,Oklahoma State,football
-TCU,TCU,football
-TEX,Texas,football
-TTU,Texas Tech,football
-WVU,West Virginia,football
-ARZ,Arizona,football
-ASU,Arizona State,football
-CAL,Cal,football
-COL,Colorado,football
-ORE,Oregon,football
-OST,Oregon State,football
-STAN,Stanford,football
-UCLA,UCLA,football
-USC,USC,football
-UTAH,Utah,football
-WASH,Washington,football
-WSU,Washington State,football
-ALA,Alabama,football
-ARK,Arkansas,football
-AUB,Auburn,football
-FLA,Florida,football
-UGA,Georgia,football
-UK,Kentucky,football
-LSU,LSU,football
-MISS,Ole Miss,football
-MSST,Mississippi State,football
-MIZ,Missouri,football
-SC,South Carolina,football
-TENN,Tennessee,football
-TAMU,Texas A&M,football
-VAN,Vanderbilt,football
-BYU,BYU,football
-ARMY,Army,football
-UMASS,UMass,football
-ND,Notre Dame,football
-CIN,Cincinnati,football
-CONN,UConn,football
-ECU,ECU,football
-HOU,Houston,football
-MEM,Memphis,football
-NAVY,Navy,football
-SMU,SMU,football
-USF,South Florida,football
-TEM,Temple,football
-TULN,Tulane,football
-TLSA,Tulsa,football
-UCF,UCF,football
-CHAR,Charlotte,football
-FAU,FAU,football
-FIU,FIU,football
-LT,Louisiana Tech,football
-MRSH,Marshall,football
-MTSU,Middle Tennessee,football
-UNT,North Texas,football
-ODU,Old Dominion,football
-RICE,Rice,football
-USM,Southern Miss,football
-UTEP,UTEP,football
-UTSA,UTSA,football
-WKU,WKU,football
-AKR,Akron,football
-BALL,Ball State,football
-BGSU,Bowling Green,football
-BUFF,Buffalo,football
-CMU,Central Michigan,football
-EMU,Eastern Michigan,football
-KENT,Kent State,football
-M-OH,Miami (OH),football
-NIU,Northern Illinois,football
-OHIO,Ohio,football
-TOL or TOLEDO,Toledo,football
-WMU,Western Michigan,football
-AFA,Air Force,football
-BSU,Boise State,football
-CSU,Colorado State,football
-FRES,Fresno State,football
-HAW,Hawaii,football
-NEV,Nevada,football
-UNM,New Mexico,football
-SDSU,San Diego State,football
-SJSU,San José State,football
-UNLV,UNLV,football
-USU,Utah State,football
-WYO,Wyoming,football
-APP,Appalachian State,football
-ARST,Arkansas State,football
-GASO,Georgia Southern,football
-GAST or GSU,Georgia State,football
-IDHO,Idaho,football
-ULL,Louisiana Lafayette,football
-ULM,Louisiana Monroe,football
-NMSU,New Mexico State,football
-USA,South Alabama,football
-TXST,Texas State,football
-TROY,Troy,football
-Big Sky,Big Sky,football
-CP,Cal Poly,football
-EWU,Eastern Washington,football
-IDST,Idaho State,football
-MONT,Montana,football
-MTST,Montana State,football
-UND,North Dakota,football
-NAU,Northern Arizona,football
-UNCO,Northern Colorado,football
-PRST,Portland State,football
-SAC,Sacramento State,football
-SUU,Southern Utah,football
-UCD,UC Davis,football
-WEB,Weber State,football
-Big South,Big South,football
-CHSO,Charleston Southern,football
-CCAR,Coastal Carolina,football
-WEBB,Gardner-Webb,football
-KENN,Kennesaw State,football
-LIB,Liberty,football
-MONM,Monmouth,football
-PRE,Presbyterian,football
-CAA,CAA,football
-ALBY,Albany,football
-DEL,Delaware,football
-ELON,Elon,football
-JMU,James Madison,football
-MAINE or MNE,Maine,football
-UNH,New Hampshire,football
-URI,Rhode Island,football
-RICH,Richmond,football
-STON,Stony Brook,football
-TOWS,Towson,football
-NOVA,Villanova,football
-W&M,William & Mary,football
-Ivy,Ivy League,football
-BRWN,Brown,football
-COR,Cornell,football
-CLMB,Columbia,football
-DART,Dartmouth,football
-HARV,Harvard,football
-PENN,UPenn,football
-PRIN,Princeton,football
-YALE,Yale,football
-MEAC,MEAC,football
-COOK,Bethune-Cookman,football
-DSU,Delaware State,football
-FAMU,Florida A&M,football
-HAMP,Hampton,football
-HOW,Howard,football
-MORG,Morgan State,football
-NORF,Norfolk State,football
-NCAT,North Carolina A&T,football
-NCCU,NC Central,football
-SAV,Savannah State,football
-SCST,South Carolina State,football
-MVFC,Missouri Valley,football
-ILST,Illinois State,football
-INST,Indiana State,football
-MOST,Missouri State,football
-NDSU,North Dakota State,football
-UNI,Northern Iowa,football
-SDAK,South Dakota,football
-SDSU,South Dakota State,football
-SIU,Southern Illinois,football
-WIU,Western Illinois,football
-YSU,Youngstown State,football
-NEC,Northeast,football
-BRY,Bryant,football
-CCSU,Central Connecticut,football
-DUQ,Duquesne,football
-RMU,Robert Morris (PA),football
-SHU,Sacred Heart,football
-SFU,St. Francis (PA),football
-WAG,Wagner,football
-OVC,Ohio Valley,football
-PEAY,Austin Peay,football
-EIU,Eastern Illinois,football
-EKY,Eastern Kentucky,football
-JVST,Jacksonville State,football
-MURR,Murray State,football
-SEMO,Southeast Missouri,football
-TNST,Tennessee State,football
-TNTC,Tennessee Tech,football
-UTM,Tennessee-Martin,football
-Patriot,Patriot,football
-BUCK,Bucknell,football
-COLG,Colgate,football
-FOR,Fordham,football
-GTWN,Georgetown,football
-HC,Holy Cross,football
-LAF,Lafayette,football
-LEH,Lehigh,football
-Pioneer,Pioneer,football
-BUT,Butler,football
-CAMP,Campbell,football
-DAV,Davidson,football
-DAY,Dayton,football
-DRKE,Drake,football
-JAC,Jacksonville,football
-MRST,Marist,football
-MORE,Morehead State,football
-USD,San Diego,football
-STET,Stetson,football
-VALP,Valparaiso,football
-SoCon,SoCon,football
-CHAT,Chattanooga,football
-ETSU,ETSU,football
-FUR,Furman,football
-MER,Mercer,football
-SAM,Samford,football
-CIT,The Citadel,football
-VMI,VMI,football
-WCU,Western Carolina,football
-WOF,Wofford,football
-Southland,Southland,football
-ACU,Abilene Christian,football
-UCA,Central Arkansas,football
-HBU,Houston Baptist,football
-IW,Incarnate Word,football
-LAM,Lamar,football
-MCNS,McNeese State,football
-NICH,Nicholls State,football
-NWST,Northwestern State,football
-SHSU,Sam Houston State,football
-SELA,Southeastern Louisiana,football
-SFA,Stephen F. Austin,football
-SWAC,SWAC,football
-AAMU,Alabama A&M,football
-ALST,Alabama State,football
-ALCN,Alcorn State,football
-ARPB,Arkansas-Pine Bluff,football
-GRAM,Grambling State,football
-JKST,Jackson State,football
-MVSU,Mississippi Valley State,football
-PV,Prairie View A&M,football
-SOU,Southern University,football
-TXSO,Texas Southern,football
-XAV,Xavier,basketball
-DUK,Duke,basketball
-VIL,Villanova,basketball
-STH,Seton Hall,basketball
-CIN,Cincinnati,basketball
-BC,Boston College,basketball
-CLEM,Clemson,basketball
-DUKE,Duke,basketball
-FSU,Florida State,basketball
-GT,Georgia Tech,basketball
-LOU,Louisville,basketball
-MIA,Miami (FL),basketball
-NCST,NC State,basketball
-PITT,Pittsburgh,basketball
-SYR,Syracuse,basketball
-UNC,North Carolina,basketball
-UVA,Virginia,basketball
-VT,Virginia Tech,basketball
-WAKE,Wake Forest,basketball
-ILL,Illinois,basketball
-IND,Indiana,basketball
-IOWA,Iowa,basketball
-MICH,Michigan,basketball
-MSU,Michigan State,basketball
-MINN,Minnesota,basketball
-NEB,Nebraska,basketball
-NW,Northwestern,basketball
-OSU,Ohio State,basketball
-PSU,Penn State,basketball
-PUR,Purdue,basketball
-RUTG,Rutgers,basketball
-UMD,Maryland,basketball
-WIS,Wisconsin,basketball
-BAY,Baylor,basketball
-ISU,Iowa State,basketball
-KU,Kansas,basketball
-KSU,Kansas State,basketball
-OKL,Oklahoma,basketball
-OKS,Oklahoma State,basketball
-TCU,TCU,basketball
-TEX,Texas,basketball
-TTU,Texas Tech,basketball
-WVU,West Virginia,basketball
-ARZ,Arizona,basketball
-ASU,Arizona State,basketball
-CAL,Cal,basketball
-COL,Colorado,basketball
-ORE,Oregon,basketball
-OST,Oregon State,basketball
-STAN,Stanford,basketball
-UCLA,UCLA,basketball
-USC,USC,basketball
-UTAH,Utah,basketball
-WASH,Washington,basketball
-WSU,Washington State,basketball
-ALA,Alabama,basketball
-ARK,Arkansas,basketball
-AUB,Auburn,basketball
-FLA,Florida,basketball
-UGA,Georgia,basketball
-UK,Kentucky,basketball
-LSU,LSU,basketball
-MISS,Ole Miss,basketball
-MSST,Mississippi State,basketball
-MIZ,Missouri,basketball
-SC,South Carolina,basketball
-TENN,Tennessee,basketball
-TAMU,Texas A&M,basketball
-VAN,Vanderbilt,basketball
-BYU,BYU,basketball
-ARMY,Army,basketball
-UMASS,UMass,basketball
-ND,Notre Dame,basketball
-CONN,UConn,basketball
-ECU,ECU,basketball
-HOU,Houston,basketball
-MEM,Memphis,basketball
-NAVY,Navy,basketball
-SMU,SMU,basketball
-USF,South Florida,basketball
-TEM,Temple,basketball
-TULN,Tulane,basketball
-TLSA,Tulsa,basketball
-UCF,UCF,basketball
-CHAR,Charlotte,basketball
-FAU,FAU,basketball
-FIU,FIU,basketball
-LT,Louisiana Tech,basketball
-MRSH,Marshall,basketball
-MTSU,Middle Tennessee,basketball
-UNT,North Texas,basketball
-ODU,Old Dominion,basketball
-RICE,Rice,basketball
-USM,Southern Miss,basketball
-UTEP,UTEP,basketball
-UTSA,UTSA,basketball
-WKU,WKU,basketball
-AKR,Akron,basketball
-BALL,Ball State,basketball
-BGSU,Bowling Green,basketball
-BUFF,Buffalo,basketball
-CMU,Central Michigan,basketball
-EMU,Eastern Michigan,basketball
-KENT,Kent State,basketball
-M-OH,Miami (OH),basketball
-NIU,Northern Illinois,basketball
-OHIO,Ohio,basketball
-TOL or TOLEDO,Toledo,basketball
-WMU,Western Michigan,basketball
-AFA,Air Force,basketball
-BSU,Boise State,basketball
-CSU,Colorado State,basketball
-FRES,Fresno State,basketball
-HAW,Hawaii,basketball
-NEV,Nevada,basketball
-UNM,New Mexico,basketball
-SDSU,San Diego State,basketball
-SJSU,San José State,basketball
-UNLV,UNLV,basketball
-USU,Utah State,basketball
-WYO,Wyoming,basketball
-APP,Appalachian State,basketball
-ARST,Arkansas State,basketball
-GASO,Georgia Southern,basketball
-GAST or GSU,Georgia State,basketball
-IDHO,Idaho,basketball
-ULL,Louisiana Lafayette,basketball
-ULM,Louisiana Monroe,basketball
-NMSU,New Mexico State,basketball
-USA,South Alabama,basketball
-TXST,Texas State,basketball
-TROY,Troy,basketball
-Big Sky,Big Sky,basketball
-CP,Cal Poly,basketball
-EWU,Eastern Washington,basketball
-IDST,Idaho State,basketball
-MONT,Montana,basketball
-MTST,Montana State,basketball
-UND,North Dakota,basketball
-NAU,Northern Arizona,basketball
-UNCO,Northern Colorado,basketball
-PRST,Portland State,basketball
-SAC,Sacramento State,basketball
-SUU,Southern Utah,basketball
-UCD,UC Davis,basketball
-WEB,Weber State,basketball
-Big South,Big South,basketball
-CHSO,Charleston Southern,basketball
-CCAR,Coastal Carolina,basketball
-WEBB,Gardner-Webb,basketball
-KENN,Kennesaw State,basketball
-LIB,Liberty,basketball
-MONM,Monmouth,basketball
-PRE,Presbyterian,basketball
-CAA,CAA,basketball
-ALBY,Albany,basketball
-DEL,Delaware,basketball
-ELON,Elon,basketball
-JMU,James Madison,basketball
-MAINE or MNE,Maine,basketball
-UNH,New Hampshire,basketball
-URI,Rhode Island,basketball
-RICH,Richmond,basketball
-STON,Stony Brook,basketball
-TOWS,Towson,basketball
-NOVA,Villanova,basketball
-W&M,William & Mary,basketball
-Ivy,Ivy League,basketball
-BRWN,Brown,basketball
-COR,Cornell,basketball
-CLMB,Columbia,basketball
-DART,Dartmouth,basketball
-HARV,Harvard,basketball
-PENN,UPenn,basketball
-PRIN,Princeton,basketball
-YALE,Yale,basketball
-MEAC,MEAC,basketball
-COOK,Bethune-Cookman,basketball
-DSU,Delaware State,basketball
-FAMU,Florida A&M,basketball
-HAMP,Hampton,basketball
-HOW,Howard,basketball
-MORG,Morgan State,basketball
-NORF,Norfolk State,basketball
-NCAT,North Carolina A&T,basketball
-NCCU,NC Central,basketball
-SAV,Savannah State,basketball
-SCST,South Carolina State,basketball
-MVFC,Missouri Valley,basketball
-ILST,Illinois State,basketball
-INST,Indiana State,basketball
-MOST,Missouri State,basketball
-NDSU,North Dakota State,basketball
-UNI,Northern Iowa,basketball
-SDAK,South Dakota,basketball
-SDSU,South Dakota State,basketball
-SIU,Southern Illinois,basketball
-WIU,Western Illinois,basketball
-YSU,Youngstown State,basketball
-NEC,Northeast,basketball
-BRY,Bryant,basketball
-CCSU,Central Connecticut,basketball
-DUQ,Duquesne,basketball
-RMU,Robert Morris (PA),basketball
-SHU,Sacred Heart,basketball
-SFU,St. Francis (PA),basketball
-WAG,Wagner,basketball
-OVC,Ohio Valley,basketball
-PEAY,Austin Peay,basketball
-EIU,Eastern Illinois,basketball
-EKY,Eastern Kentucky,basketball
-JVST,Jacksonville State,basketball
-MURR,Murray State,basketball
-SEMO,Southeast Missouri,basketball
-TNST,Tennessee State,basketball
-TNTC,Tennessee Tech,basketball
-UTM,Tennessee-Martin,basketball
-Patriot,Patriot,basketball
-BUCK,Bucknell,basketball
-COLG,Colgate,basketball
-FOR,Fordham,basketball
-GTWN,Georgetown,basketball
-HC,Holy Cross,basketball
-LAF,Lafayette,basketball
-LEH,Lehigh,basketball
-Pioneer,Pioneer,basketball
-BUT,Butler,basketball
-CAMP,Campbell,basketball
-DAV,Davidson,basketball
-DAY,Dayton,basketball
-DRKE,Drake,basketball
-JAC,Jacksonville,basketball
-MRST,Marist,basketball
-MORE,Morehead State,basketball
-USD,San Diego,basketball
-STET,Stetson,basketball
-VALP,Valparaiso,basketball
-SoCon,SoCon,basketball
-CHAT,Chattanooga,basketball
-ETSU,ETSU,basketball
-FUR,Furman,basketball
-MER,Mercer,basketball
-SAM,Samford,basketball
-CIT,The Citadel,basketball
-VMI,VMI,basketball
-WCU,Western Carolina,basketball
-WOF,Wofford,basketball
-Southland,Southland,basketball
-ACU,Abilene Christian,basketball
-UCA,Central Arkansas,basketball
-HBU,Houston Baptist,basketball
-IW,Incarnate Word,basketball
-LAM,Lamar,basketball
-MCNS,McNeese State,basketball
-NICH,Nicholls State,basketball
-NWST,Northwestern State,basketball
-SHSU,Sam Houston State,basketball
-SELA,Southeastern Louisiana,basketball
-SFA,Stephen F. Austin,basketball
-SWAC,SWAC,basketball
-AAMU,Alabama A&M,basketball
-ALST,Alabama State,basketball
-ALCN,Alcorn State,basketball
-ARPB,Arkansas-Pine Bluff,basketball
-GRAM,Grambling State,basketball
-JKST,Jackson State,basketball
-MVSU,Mississippi Valley State,basketball
-PV,Prairie View A&M,basketball
-SOU,Southern University,basketball
-TXSO,Texas Southern,basketball
-MQT,Marquette,basketball
-CRE,Creighton,basketball
-PRV,Providence,basketball
-DEP,DePaul,basketball
-STJ,St Johns,basketball
+acronym,team_name
+BOU,AFC Bournemouth
+ARS,Arsenal
+AVA,Aston Villa
+BHA,Brighton Hove Albion
+BUR,Burnley
+CHE,Chelsea
+CRY,Crystal Palace
+EVE,Everton
+LEI,Leicester City
+LIV,Liverpool
+MCI,Manchester City
+MUN,Manchester United
+NEW,Newcastle United
+NOR,Norwich City
+SHU,Sheffield United
+SOU,Southampton
+TOT,Tottenham Hotspur
+WAT,Watford
+WHU,West Ham United
+WLV,Wolverhampton Wanderers
+ATL,Atlanta United
+CHI,Chicago Fire
+CLR,Colorado Rapids
+COL,Columbus Crew SC
+DCU,D.C. United
+CIN,FC Cincinnati
+DAL,FC Dallas
+HOU,Houston Dynamo
+MIA,Inter Miami
+LAF,Los Angeles FC
+LAG,Los Angeles Galaxy
+MIN,Minnesota United FC
+MLS,MLS All Stars
+MTL,Montreal Impact
+NSC,Nashville SC
+NER,New England Revolution
+NYC,New York City
+NYR,New York Red Bulls
+ORL,Orlando City
+PHI,Philadelphia Union
+POT,Portland Timbers
+RSL,Real Salt Lake
+SJE,San Jose Earthquakes
+SEA,Seattle Sounders
+SKC,Sporting Kansas City
+TFC,Toronto FC
+VAN,Vancouver Whitecaps
+SF,49ers
+CHI,Bears
+CIN,Bengals
+BUF,Bills
+DEN,Broncos
+CLE,Browns
+ARI,Cardinals
+LAC,Chargers
+KC,Chiefs
+IND,Colts
+DAL,Cowboys
+MIA,Dolphins
+PHI,Eagles
+ATL,Falcons
+NYG,Giants
+JAC,Jaguars
+NYJ,Jets
+DET,Lions
+GB,Packers
+CAR,Panthers
+NEP,Patriots
+OAK,Raiders
+LAR,Rams
+BAL,Ravens
+WAS,Redskins
+NO,Saints
+SEA,Seahawks
+PIT,Steelers
+TB,Tampa Bay
+HOU,Texans
+TEN,Titans
+MIN,Vikings
+COL,Avalanche
+CHI,Blackhawks
+CBJ,Blue Jackets
+STL,Blues
+BOS,Bruins
+MTL,Canadiens
+VAN,Canucks
+WSH,Capitals
+ARI,Coyotes
+NJD,Devils
+ANA,Ducks
+CGY,Flames
+PHI,Flyers
+VGK,Golden Knights
+CAR,Hurricanes
+NYI,Islanders
+WPG,Jets
+LAK,Kings
+TBL,Lightning
+TOR,Maple Leafs
+EDM,Oilers
+FLA,Panthers
+PIT,Penguins
+NSH,Predators
+NYR,Rangers
+DET,Red Wings
+BUF,Sabres
+OTT,Senators
+SJS,Sharks
+DAL,Stars
+MIN,Wild
+BC,Boston College
+CLEM,Clemson
+DUKE,Duke
+FSU,Florida State
+GT,Georgia Tech
+LOU,Louisville
+MIA,Miami (FL)
+NCST,NC State
+PITT,Pittsburgh
+SYR,Syracuse
+UNC,North Carolina
+UVA,Virginia
+VT,Virginia Tech
+WAKE,Wake Forest
+ILL,Illinois
+IND,Indiana
+IOWA,Iowa
+MICH,Michigan
+MSU,Michigan State
+MINN,Minnesota
+NEB,Nebraska
+NW,Northwestern
+OSU,Ohio State
+PSU,Penn State
+PUR,Purdue
+RUTG,Rutgers
+UMD,Maryland
+WIS,Wisconsin
+BAY,Baylor
+ISU,Iowa State
+KU,Kansas
+KSU,Kansas State
+OKL,Oklahoma
+OKS,Oklahoma State
+TCU,TCU
+TEX,Texas
+TTU,Texas Tech
+WVU,West Virginia
+ARZ,Arizona
+ASU,Arizona State
+CAL,Cal
+COL,Colorado
+ORE,Oregon
+OST,Oregon State
+STAN,Stanford
+UCLA,UCLA
+USC,USC
+UTAH,Utah
+WASH,Washington
+WSU,Washington State
+ALA,Alabama
+ARK,Arkansas
+AUB,Auburn
+FLA,Florida
+UGA,Georgia
+UK,Kentucky
+LSU,LSU
+MISS,Ole Miss
+MSST,Mississippi State
+MIZ,Missouri
+SC,South Carolina
+TENN,Tennessee
+TAMU,Texas A&M
+VAN,Vanderbilt
+BYU,BYU
+ARMY,Army
+UMASS,UMass
+ND,Notre Dame
+CIN,Cincinnati
+CONN,UConn
+ECU,ECU
+HOU,Houston
+MEM,Memphis
+NAVY,Navy
+SMU,SMU
+USF,South Florida
+TEM,Temple
+TULN,Tulane
+TLSA,Tulsa
+UCF,UCF
+CHAR,Charlotte
+FAU,FAU
+FIU,FIU
+LT,Louisiana Tech
+MRSH,Marshall
+MTSU,Middle Tennessee
+UNT,North Texas
+ODU,Old Dominion
+RICE,Rice
+USM,Southern Miss
+UTEP,UTEP
+UTSA,UTSA
+WKU,WKU
+AKR,Akron
+BALL,Ball State
+BGSU,Bowling Green
+BUFF,Buffalo
+CMU,Central Michigan
+EMU,Eastern Michigan
+KENT,Kent State
+M-OH,Miami (OH)
+NIU,Northern Illinois
+OHIO,Ohio
+TOL or TOLEDO,Toledo
+WMU,Western Michigan
+AFA,Air Force
+BSU,Boise State
+CSU,Colorado State
+FRES,Fresno State
+HAW,Hawaii
+NEV,Nevada
+UNM,New Mexico
+SDSU,San Diego State
+SJSU,San José State
+UNLV,UNLV
+USU,Utah State
+WYO,Wyoming
+APP,Appalachian State
+ARST,Arkansas State
+GASO,Georgia Southern
+GAST or GSU,Georgia State
+IDHO,Idaho
+ULL,Louisiana Lafayette
+ULM,Louisiana Monroe
+NMSU,New Mexico State
+USA,South Alabama
+TXST,Texas State
+TROY,Troy
+Big Sky,Big Sky
+CP,Cal Poly
+EWU,Eastern Washington
+IDST,Idaho State
+MONT,Montana
+MTST,Montana State
+UND,North Dakota
+NAU,Northern Arizona
+UNCO,Northern Colorado
+PRST,Portland State
+SAC,Sacramento State
+SUU,Southern Utah
+UCD,UC Davis
+WEB,Weber State
+Big South,Big South
+CHSO,Charleston Southern
+CCAR,Coastal Carolina
+WEBB,Gardner-Webb
+KENN,Kennesaw State
+LIB,Liberty
+MONM,Monmouth
+PRE,Presbyterian
+CAA,CAA
+ALBY,Albany
+DEL,Delaware
+ELON,Elon
+JMU,James Madison
+MAINE or MNE,Maine
+UNH,New Hampshire
+URI,Rhode Island
+RICH,Richmond
+STON,Stony Brook
+TOWS,Towson
+NOVA,Villanova
+W&M,William & Mary
+Ivy,Ivy League
+BRWN,Brown
+COR,Cornell
+CLMB,Columbia
+DART,Dartmouth
+HARV,Harvard
+PENN,UPenn
+PRIN,Princeton
+YALE,Yale
+MEAC,MEAC
+COOK,Bethune-Cookman
+DSU,Delaware State
+FAMU,Florida A&M
+HAMP,Hampton
+HOW,Howard
+MORG,Morgan State
+NORF,Norfolk State
+NCAT,North Carolina A&T
+NCCU,NC Central
+SAV,Savannah State
+SCST,South Carolina State
+MVFC,Missouri Valley
+ILST,Illinois State
+INST,Indiana State
+MOST,Missouri State
+NDSU,North Dakota State
+UNI,Northern Iowa
+SDAK,South Dakota
+SDSU,South Dakota State
+SIU,Southern Illinois
+WIU,Western Illinois
+YSU,Youngstown State
+NEC,Northeast
+BRY,Bryant
+CCSU,Central Connecticut
+DUQ,Duquesne
+RMU,Robert Morris (PA)
+SHU,Sacred Heart
+SFU,St. Francis (PA)
+WAG,Wagner
+OVC,Ohio Valley
+PEAY,Austin Peay
+EIU,Eastern Illinois
+EKY,Eastern Kentucky
+JVST,Jacksonville State
+MURR,Murray State
+SEMO,Southeast Missouri
+TNST,Tennessee State
+TNTC,Tennessee Tech
+UTM,Tennessee-Martin
+Patriot,Patriot
+BUCK,Bucknell
+COLG,Colgate
+FOR,Fordham
+GTWN,Georgetown
+HC,Holy Cross
+LAF,Lafayette
+LEH,Lehigh
+Pioneer,Pioneer
+BUT,Butler
+CAMP,Campbell
+DAV,Davidson
+DAY,Dayton
+DRKE,Drake
+JAC,Jacksonville
+MRST,Marist
+MORE,Morehead State
+USD,San Diego
+STET,Stetson
+VALP,Valparaiso
+SoCon,SoCon
+CHAT,Chattanooga
+ETSU,ETSU
+FUR,Furman
+MER,Mercer
+SAM,Samford
+CIT,The Citadel
+VMI,VMI
+WCU,Western Carolina
+WOF,Wofford
+Southland,Southland
+ACU,Abilene Christian
+UCA,Central Arkansas
+HBU,Houston Baptist
+IW,Incarnate Word
+LAM,Lamar
+MCNS,McNeese State
+NICH,Nicholls State
+NWST,Northwestern State
+SHSU,Sam Houston State
+SELA,Southeastern Louisiana
+SFA,Stephen F. Austin
+SWAC,SWAC
+AAMU,Alabama A&M
+ALST,Alabama State
+ALCN,Alcorn State
+ARPB,Arkansas-Pine Bluff
+GRAM,Grambling State
+JKST,Jackson State
+MVSU,Mississippi Valley State
+PV,Prairie View A&M
+SOU,Southern University
+TXSO,Texas Southern
+XAV,Xavier
+DUK,Duke
+VIL,Villanova
+STH,Seton Hall
+MQT,Marquette
+CRE,Creighton
+PRV,Providence
+DEP,DePaul
+STJ,St Johns
