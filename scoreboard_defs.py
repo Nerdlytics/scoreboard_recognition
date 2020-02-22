@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from fuzzywuzzy import fuzz
 
 class scoreboard(bbox, boxes, sport, channel):
     """
@@ -27,6 +28,9 @@ class scoreboard(bbox, boxes, sport, channel):
         self.score_1 = ""
         self.score_2 = ""
         self.game_clock = ""
+
+        # Globals
+        self.team_defs = pd.read_csv("team_acronyms.csv", encoding='latin-1')
 
     def read_scoreboard_screen(self):
         while(True):
@@ -56,7 +60,15 @@ class scoreboard(bbox, boxes, sport, channel):
                 self.play_clock = results[5][1]
 
     def translate_team(self, team_text):
+        if len(team_text)<=3:
+            return team_text
+        else:
+            possible_teams = self.team_defs
+            ratios = [fuzz.ratio(myteam.lower(), f.lower()) for f in possible_teams.team_name]
 
+            team_loc = [i for i, j in enumerate(ratios) if j == max(ratios)]
+            team_match = possible_teams.acronym[team_loc]
+            return team_match
 
 # Current pre-programmed scoreboards
 premleague_nbc = scoreboard(bbox=(68,75,720,123),
