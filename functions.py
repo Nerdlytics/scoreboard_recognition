@@ -20,3 +20,19 @@ def process_img(image):
     processed_img = cv2.fastNlMeansDenoising(processed_img)
 
     return processed_img
+
+def ocr_text(img, language="eng", oem="1", psm="7"):
+    # in order to apply Tesseract v4 to OCR text we must supply
+    # (1) a language, (2) an OEM flag of 4, indicating that the we
+    # wish to use the LSTM neural net model for OCR, and finally
+    # (3) an OEM value, in this case, 7 which implies that we are
+    # treating the ROI as a single line of text
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+    config = ("-l "+language+" --oem "+oem+" --psm "+psm+" -c tessedit_char_whitelist=abc123")
+    text = pytesseract.image_to_string(img, config=config)
+
+    # add the bounding box coordinates and OCR'd text to the list
+    # of results
+    return(text)
+
+
