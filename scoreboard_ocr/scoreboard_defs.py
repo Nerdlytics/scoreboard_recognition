@@ -67,7 +67,7 @@ class scoreboard:
             ratios = [fuzz.ratio(team_text.lower(), f.lower()) for f in possible_teams.team_name]
 
             team_loc = [i for i, j in enumerate(ratios) if j == max(ratios)]
-            team_match = possible_teams.acronym[team_loc]
+            team_match = possible_teams.acronym[team_loc[0]]
             return team_match
 
 # Current pre-programmed scoreboards

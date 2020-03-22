@@ -12,6 +12,9 @@ from PIL import ImageGrab
 import time
 
 def process_img(image):
+    """
+    Process a given image for optimal text recognition
+    """
     # convert to gray
     processed_img = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     processed_img = cv2.fastNlMeansDenoising(processed_img)
@@ -35,4 +38,9 @@ def ocr_text(img, language="eng", oem="1", psm="7"):
     # of results
     return(text)
 
-
+def map_leds(position, character):
+    """
+    Take the position and character and return a dict with the LEDs and an on/off
+    """
+    led_dict = dict(zip(position, character))
+    return led_dict
