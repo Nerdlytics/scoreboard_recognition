@@ -1,386 +1,386 @@
-acronym,team_name
-BOU,AFC Bournemouth
-ARS,Arsenal
-AVA,Aston Villa
-BHA,Brighton Hove Albion
-BUR,Burnley
-CHE,Chelsea
-CRY,Crystal Palace
-EVE,Everton
-LEI,Leicester City
-LIV,Liverpool
-MCI,Manchester City
-MUN,Manchester United
-NEW,Newcastle United
-NOR,Norwich City
-SHU,Sheffield United
-SOU,Southampton
-TOT,Tottenham Hotspur
-WAT,Watford
-WHU,West Ham United
-WLV,Wolverhampton Wanderers
-ATL,Atlanta United
-CHI,Chicago Fire
-CLR,Colorado Rapids
-COL,Columbus Crew SC
-DCU,D.C. United
-CIN,FC Cincinnati
-DAL,FC Dallas
-HOU,Houston Dynamo
-MIA,Inter Miami
-LAF,Los Angeles FC
-LAG,Los Angeles Galaxy
-MIN,Minnesota United FC
-MLS,MLS All Stars
-MTL,Montreal Impact
-NSC,Nashville SC
-NER,New England Revolution
-NYC,New York City
-NYR,New York Red Bulls
-ORL,Orlando City
-PHI,Philadelphia Union
-POT,Portland Timbers
-RSL,Real Salt Lake
-SJE,San Jose Earthquakes
-SEA,Seattle Sounders
-SKC,Sporting Kansas City
-TFC,Toronto FC
-VAN,Vancouver Whitecaps
-SF,49ers
-CHI,Bears
-CIN,Bengals
-BUF,Bills
-DEN,Broncos
-CLE,Browns
-ARI,Cardinals
-LAC,Chargers
-KC,Chiefs
-IND,Colts
-DAL,Cowboys
-MIA,Dolphins
-PHI,Eagles
-ATL,Falcons
-NYG,Giants
-JAC,Jaguars
-NYJ,Jets
-DET,Lions
-GB,Packers
-CAR,Panthers
-NEP,Patriots
-OAK,Raiders
-LAR,Rams
-BAL,Ravens
-WAS,Redskins
-NO,Saints
-SEA,Seahawks
-PIT,Steelers
-TB,Tampa Bay
-HOU,Texans
-TEN,Titans
-MIN,Vikings
-COL,Avalanche
-CHI,Blackhawks
-CBJ,Blue Jackets
-STL,Blues
-BOS,Bruins
-MTL,Canadiens
-VAN,Canucks
-WSH,Capitals
-ARI,Coyotes
-NJD,Devils
-ANA,Ducks
-CGY,Flames
-PHI,Flyers
-VGK,Golden Knights
-CAR,Hurricanes
-NYI,Islanders
-WPG,Jets
-LAK,Kings
-TBL,Lightning
-TOR,Maple Leafs
-EDM,Oilers
-FLA,Panthers
-PIT,Penguins
-NSH,Predators
-NYR,Rangers
-DET,Red Wings
-BUF,Sabres
-OTT,Senators
-SJS,Sharks
-DAL,Stars
-MIN,Wild
-BC,Boston College
-CLEM,Clemson
-DUKE,Duke
-FSU,Florida State
-GT,Georgia Tech
-LOU,Louisville
-MIA,Miami (FL)
-NCST,NC State
-PITT,Pittsburgh
-SYR,Syracuse
-UNC,North Carolina
-UVA,Virginia
-VT,Virginia Tech
-WAKE,Wake Forest
-ILL,Illinois
-IND,Indiana
-IOWA,Iowa
-MICH,Michigan
-MSU,Michigan State
-MINN,Minnesota
-NEB,Nebraska
-NW,Northwestern
-OSU,Ohio State
-PSU,Penn State
-PUR,Purdue
-RUTG,Rutgers
-UMD,Maryland
-WIS,Wisconsin
-BAY,Baylor
-ISU,Iowa State
-KU,Kansas
-KSU,Kansas State
-OKL,Oklahoma
-OKS,Oklahoma State
-TCU,TCU
-TEX,Texas
-TTU,Texas Tech
-WVU,West Virginia
-ARZ,Arizona
-ASU,Arizona State
-CAL,Cal
-COL,Colorado
-ORE,Oregon
-OST,Oregon State
-STAN,Stanford
-UCLA,UCLA
-USC,USC
-UTAH,Utah
-WASH,Washington
-WSU,Washington State
-ALA,Alabama
-ARK,Arkansas
-AUB,Auburn
-FLA,Florida
-UGA,Georgia
-UK,Kentucky
-LSU,LSU
-MISS,Ole Miss
-MSST,Mississippi State
-MIZ,Missouri
-SC,South Carolina
-TENN,Tennessee
-TAMU,Texas A&M
-VAN,Vanderbilt
-BYU,BYU
-ARMY,Army
-UMASS,UMass
-ND,Notre Dame
-CIN,Cincinnati
-CONN,UConn
-ECU,ECU
-HOU,Houston
-MEM,Memphis
-NAVY,Navy
-SMU,SMU
-USF,South Florida
-TEM,Temple
-TULN,Tulane
-TLSA,Tulsa
-UCF,UCF
-CHAR,Charlotte
-FAU,FAU
-FIU,FIU
-LT,Louisiana Tech
-MRSH,Marshall
-MTSU,Middle Tennessee
-UNT,North Texas
-ODU,Old Dominion
-RICE,Rice
-USM,Southern Miss
-UTEP,UTEP
-UTSA,UTSA
-WKU,WKU
-AKR,Akron
-BALL,Ball State
-BGSU,Bowling Green
-BUFF,Buffalo
-CMU,Central Michigan
-EMU,Eastern Michigan
-KENT,Kent State
-M-OH,Miami (OH)
-NIU,Northern Illinois
-OHIO,Ohio
-TOL or TOLEDO,Toledo
-WMU,Western Michigan
-AFA,Air Force
-BSU,Boise State
-CSU,Colorado State
-FRES,Fresno State
-HAW,Hawaii
-NEV,Nevada
-UNM,New Mexico
-SDSU,San Diego State
-SJSU,San José State
-UNLV,UNLV
-USU,Utah State
-WYO,Wyoming
-APP,Appalachian State
-ARST,Arkansas State
-GASO,Georgia Southern
-GAST or GSU,Georgia State
-IDHO,Idaho
-ULL,Louisiana Lafayette
-ULM,Louisiana Monroe
-NMSU,New Mexico State
-USA,South Alabama
-TXST,Texas State
-TROY,Troy
-Big Sky,Big Sky
-CP,Cal Poly
-EWU,Eastern Washington
-IDST,Idaho State
-MONT,Montana
-MTST,Montana State
-UND,North Dakota
-NAU,Northern Arizona
-UNCO,Northern Colorado
-PRST,Portland State
-SAC,Sacramento State
-SUU,Southern Utah
-UCD,UC Davis
-WEB,Weber State
-Big South,Big South
-CHSO,Charleston Southern
-CCAR,Coastal Carolina
-WEBB,Gardner-Webb
-KENN,Kennesaw State
-LIB,Liberty
-MONM,Monmouth
-PRE,Presbyterian
-CAA,CAA
-ALBY,Albany
-DEL,Delaware
-ELON,Elon
-JMU,James Madison
-MAINE or MNE,Maine
-UNH,New Hampshire
-URI,Rhode Island
-RICH,Richmond
-STON,Stony Brook
-TOWS,Towson
-NOVA,Villanova
-W&M,William & Mary
-Ivy,Ivy League
-BRWN,Brown
-COR,Cornell
-CLMB,Columbia
-DART,Dartmouth
-HARV,Harvard
-PENN,UPenn
-PRIN,Princeton
-YALE,Yale
-MEAC,MEAC
-COOK,Bethune-Cookman
-DSU,Delaware State
-FAMU,Florida A&M
-HAMP,Hampton
-HOW,Howard
-MORG,Morgan State
-NORF,Norfolk State
-NCAT,North Carolina A&T
-NCCU,NC Central
-SAV,Savannah State
-SCST,South Carolina State
-MVFC,Missouri Valley
-ILST,Illinois State
-INST,Indiana State
-MOST,Missouri State
-NDSU,North Dakota State
-UNI,Northern Iowa
-SDAK,South Dakota
-SDSU,South Dakota State
-SIU,Southern Illinois
-WIU,Western Illinois
-YSU,Youngstown State
-NEC,Northeast
-BRY,Bryant
-CCSU,Central Connecticut
-DUQ,Duquesne
-RMU,Robert Morris (PA)
-SHU,Sacred Heart
-SFU,St. Francis (PA)
-WAG,Wagner
-OVC,Ohio Valley
-PEAY,Austin Peay
-EIU,Eastern Illinois
-EKY,Eastern Kentucky
-JVST,Jacksonville State
-MURR,Murray State
-SEMO,Southeast Missouri
-TNST,Tennessee State
-TNTC,Tennessee Tech
-UTM,Tennessee-Martin
-Patriot,Patriot
-BUCK,Bucknell
-COLG,Colgate
-FOR,Fordham
-GTWN,Georgetown
-HC,Holy Cross
-LAF,Lafayette
-LEH,Lehigh
-Pioneer,Pioneer
-BUT,Butler
-CAMP,Campbell
-DAV,Davidson
-DAY,Dayton
-DRKE,Drake
-JAC,Jacksonville
-MRST,Marist
-MORE,Morehead State
-USD,San Diego
-STET,Stetson
-VALP,Valparaiso
-SoCon,SoCon
-CHAT,Chattanooga
-ETSU,ETSU
-FUR,Furman
-MER,Mercer
-SAM,Samford
-CIT,The Citadel
-VMI,VMI
-WCU,Western Carolina
-WOF,Wofford
-Southland,Southland
-ACU,Abilene Christian
-UCA,Central Arkansas
-HBU,Houston Baptist
-IW,Incarnate Word
-LAM,Lamar
-MCNS,McNeese State
-NICH,Nicholls State
-NWST,Northwestern State
-SHSU,Sam Houston State
-SELA,Southeastern Louisiana
-SFA,Stephen F. Austin
-SWAC,SWAC
-AAMU,Alabama A&M
-ALST,Alabama State
-ALCN,Alcorn State
-ARPB,Arkansas-Pine Bluff
-GRAM,Grambling State
-JKST,Jackson State
-MVSU,Mississippi Valley State
-PV,Prairie View A&M
-SOU,Southern University
-TXSO,Texas Southern
-XAV,Xavier
-DUK,Duke
-VIL,Villanova
-STH,Seton Hall
-MQT,Marquette
-CRE,Creighton
-PRV,Providence
-DEP,DePaul
-STJ,St Johns
+Index,acronym,team_name
+1,BOU,AFC Bournemouth
+2,ARS,Arsenal
+3,AVA,Aston Villa
+4,BHA,Brighton Hove Albion
+5,BUR,Burnley
+6,CHE,Chelsea
+7,CRY,Crystal Palace
+8,EVE,Everton
+9,LEI,Leicester City
+10,LIV,Liverpool
+11,MCI,Manchester City
+12,MUN,Manchester United
+13,NEW,Newcastle United
+14,NOR,Norwich City
+15,SHU,Sheffield United
+16,SOU,Southampton
+17,TOT,Tottenham Hotspur
+18,WAT,Watford
+19,WHU,West Ham United
+20,WLV,Wolverhampton Wanderers
+21,ATL,Atlanta United
+22,CHI,Chicago Fire
+23,CLR,Colorado Rapids
+24,COL,Columbus Crew SC
+25,DCU,D.C. United
+26,CIN,FC Cincinnati
+27,DAL,FC Dallas
+28,HOU,Houston Dynamo
+29,MIA,Inter Miami
+30,LAF,Los Angeles FC
+31,LAG,Los Angeles Galaxy
+32,MIN,Minnesota United FC
+33,MLS,MLS All Stars
+34,MTL,Montreal Impact
+35,NSC,Nashville SC
+36,NER,New England Revolution
+37,NYC,New York City
+38,NYR,New York Red Bulls
+39,ORL,Orlando City
+40,PHI,Philadelphia Union
+41,POT,Portland Timbers
+42,RSL,Real Salt Lake
+43,SJE,San Jose Earthquakes
+44,SEA,Seattle Sounders
+45,SKC,Sporting Kansas City
+46,TFC,Toronto FC
+47,VAN,Vancouver Whitecaps
+48,SF,49ers
+49,CHI,Bears
+50,CIN,Bengals
+51,BUF,Bills
+52,DEN,Broncos
+53,CLE,Browns
+54,ARI,Cardinals
+55,LAC,Chargers
+56,KC,Chiefs
+57,IND,Colts
+58,DAL,Cowboys
+59,MIA,Dolphins
+60,PHI,Eagles
+61,ATL,Falcons
+62,NYG,Giants
+63,JAC,Jaguars
+64,NYJ,Jets
+65,DET,Lions
+66,GB,Packers
+67,CAR,Panthers
+68,NEP,Patriots
+69,OAK,Raiders
+70,LAR,Rams
+71,BAL,Ravens
+72,WAS,Redskins
+73,NO,Saints
+74,SEA,Seahawks
+75,PIT,Steelers
+76,TB,Tampa Bay
+77,HOU,Texans
+78,TEN,Titans
+79,MIN,Vikings
+80,COL,Avalanche
+81,CHI,Blackhawks
+82,CBJ,Blue Jackets
+83,STL,Blues
+84,BOS,Bruins
+85,MTL,Canadiens
+86,VAN,Canucks
+87,WSH,Capitals
+88,ARI,Coyotes
+89,NJD,Devils
+90,ANA,Ducks
+91,CGY,Flames
+92,PHI,Flyers
+93,VGK,Golden Knights
+94,CAR,Hurricanes
+95,NYI,Islanders
+96,WPG,Jets
+97,LAK,Kings
+98,TBL,Lightning
+99,TOR,Maple Leafs
+100,EDM,Oilers
+101,FLA,Panthers
+102,PIT,Penguins
+103,NSH,Predators
+104,NYR,Rangers
+105,DET,Red Wings
+106,BUF,Sabres
+107,OTT,Senators
+108,SJS,Sharks
+109,DAL,Stars
+110,MIN,Wild
+111,BC,Boston College
+112,CLEM,Clemson
+113,DUKE,Duke
+114,FSU,Florida State
+115,GT,Georgia Tech
+116,LOU,Louisville
+117,MIA,Miami (FL)
+118,NCST,NC State
+119,PITT,Pittsburgh
+120,SYR,Syracuse
+121,UNC,North Carolina
+122,UVA,Virginia
+123,VT,Virginia Tech
+124,WAKE,Wake Forest
+125,ILL,Illinois
+126,IND,Indiana
+127,IOWA,Iowa
+128,MICH,Michigan
+129,MSU,Michigan State
+130,MINN,Minnesota
+131,NEB,Nebraska
+132,NW,Northwestern
+133,OSU,Ohio State
+134,PSU,Penn State
+135,PUR,Purdue
+136,RUTG,Rutgers
+137,UMD,Maryland
+138,WIS,Wisconsin
+139,BAY,Baylor
+140,ISU,Iowa State
+141,KU,Kansas
+142,KSU,Kansas State
+143,OKL,Oklahoma
+144,OKS,Oklahoma State
+145,TCU,TCU
+146,TEX,Texas
+147,TTU,Texas Tech
+148,WVU,West Virginia
+149,ARZ,Arizona
+150,ASU,Arizona State
+151,CAL,Cal
+152,COL,Colorado
+153,ORE,Oregon
+154,OST,Oregon State
+155,STAN,Stanford
+156,UCLA,UCLA
+157,USC,USC
+158,UTAH,Utah
+159,WASH,Washington
+160,WSU,Washington State
+161,ALA,Alabama
+162,ARK,Arkansas
+163,AUB,Auburn
+164,FLA,Florida
+165,UGA,Georgia
+166,UK,Kentucky
+167,LSU,LSU
+168,MISS,Ole Miss
+169,MSST,Mississippi State
+170,MIZ,Missouri
+171,SC,South Carolina
+172,TENN,Tennessee
+173,TAMU,Texas A&M
+174,VAN,Vanderbilt
+175,BYU,BYU
+176,ARMY,Army
+177,UMASS,UMass
+178,ND,Notre Dame
+179,CIN,Cincinnati
+180,CONN,UConn
+181,ECU,ECU
+182,HOU,Houston
+183,MEM,Memphis
+184,NAVY,Navy
+185,SMU,SMU
+186,USF,South Florida
+187,TEM,Temple
+188,TULN,Tulane
+189,TLSA,Tulsa
+190,UCF,UCF
+191,CHAR,Charlotte
+192,FAU,FAU
+193,FIU,FIU
+194,LT,Louisiana Tech
+195,MRSH,Marshall
+196,MTSU,Middle Tennessee
+197,UNT,North Texas
+198,ODU,Old Dominion
+199,RICE,Rice
+200,USM,Southern Miss
+201,UTEP,UTEP
+202,UTSA,UTSA
+203,WKU,WKU
+204,AKR,Akron
+205,BALL,Ball State
+206,BGSU,Bowling Green
+207,BUFF,Buffalo
+208,CMU,Central Michigan
+209,EMU,Eastern Michigan
+210,KENT,Kent State
+211,M-OH,Miami (OH)
+212,NIU,Northern Illinois
+213,OHIO,Ohio
+214,TOL or TOLEDO,Toledo
+215,WMU,Western Michigan
+216,AFA,Air Force
+217,BSU,Boise State
+218,CSU,Colorado State
+219,FRES,Fresno State
+220,HAW,Hawaii
+221,NEV,Nevada
+222,UNM,New Mexico
+223,SDSU,San Diego State
+224,SJSU,San José State
+225,UNLV,UNLV
+226,USU,Utah State
+227,WYO,Wyoming
+228,APP,Appalachian State
+229,ARST,Arkansas State
+230,GASO,Georgia Southern
+231,GAST or GSU,Georgia State
+232,IDHO,Idaho
+233,ULL,Louisiana Lafayette
+234,ULM,Louisiana Monroe
+235,NMSU,New Mexico State
+236,USA,South Alabama
+237,TXST,Texas State
+238,TROY,Troy
+239,Big Sky,Big Sky
+240,CP,Cal Poly
+241,EWU,Eastern Washington
+242,IDST,Idaho State
+243,MONT,Montana
+244,MTST,Montana State
+245,UND,North Dakota
+246,NAU,Northern Arizona
+247,UNCO,Northern Colorado
+248,PRST,Portland State
+249,SAC,Sacramento State
+250,SUU,Southern Utah
+251,UCD,UC Davis
+252,WEB,Weber State
+253,Big South,Big South
+254,CHSO,Charleston Southern
+255,CCAR,Coastal Carolina
+256,WEBB,Gardner-Webb
+257,KENN,Kennesaw State
+258,LIB,Liberty
+259,MONM,Monmouth
+260,PRE,Presbyterian
+261,CAA,CAA
+262,ALBY,Albany
+263,DEL,Delaware
+264,ELON,Elon
+265,JMU,James Madison
+266,MAINE or MNE,Maine
+267,UNH,New Hampshire
+268,URI,Rhode Island
+269,RICH,Richmond
+270,STON,Stony Brook
+271,TOWS,Towson
+272,NOVA,Villanova
+273,W&M,William & Mary
+274,Ivy,Ivy League
+275,BRWN,Brown
+276,COR,Cornell
+277,CLMB,Columbia
+278,DART,Dartmouth
+279,HARV,Harvard
+280,PENN,UPenn
+281,PRIN,Princeton
+282,YALE,Yale
+283,MEAC,MEAC
+284,COOK,Bethune-Cookman
+285,DSU,Delaware State
+286,FAMU,Florida A&M
+287,HAMP,Hampton
+288,HOW,Howard
+289,MORG,Morgan State
+290,NORF,Norfolk State
+291,NCAT,North Carolina A&T
+292,NCCU,NC Central
+293,SAV,Savannah State
+294,SCST,South Carolina State
+295,MVFC,Missouri Valley
+296,ILST,Illinois State
+297,INST,Indiana State
+298,MOST,Missouri State
+299,NDSU,North Dakota State
+300,UNI,Northern Iowa
+301,SDAK,South Dakota
+302,SDSU,South Dakota State
+303,SIU,Southern Illinois
+304,WIU,Western Illinois
+305,YSU,Youngstown State
+306,NEC,Northeast
+307,BRY,Bryant
+308,CCSU,Central Connecticut
+309,DUQ,Duquesne
+310,RMU,Robert Morris (PA)
+311,SHU,Sacred Heart
+312,SFU,St. Francis (PA)
+313,WAG,Wagner
+314,OVC,Ohio Valley
+315,PEAY,Austin Peay
+316,EIU,Eastern Illinois
+317,EKY,Eastern Kentucky
+318,JVST,Jacksonville State
+319,MURR,Murray State
+320,SEMO,Southeast Missouri
+321,TNST,Tennessee State
+322,TNTC,Tennessee Tech
+323,UTM,Tennessee-Martin
+324,Patriot,Patriot
+325,BUCK,Bucknell
+326,COLG,Colgate
+327,FOR,Fordham
+328,GTWN,Georgetown
+329,HC,Holy Cross
+330,LAF,Lafayette
+331,LEH,Lehigh
+332,Pioneer,Pioneer
+333,BUT,Butler
+334,CAMP,Campbell
+335,DAV,Davidson
+336,DAY,Dayton
+337,DRKE,Drake
+338,JAC,Jacksonville
+339,MRST,Marist
+340,MORE,Morehead State
+341,USD,San Diego
+342,STET,Stetson
+343,VALP,Valparaiso
+344,SoCon,SoCon
+345,CHAT,Chattanooga
+346,ETSU,ETSU
+347,FUR,Furman
+348,MER,Mercer
+349,SAM,Samford
+350,CIT,The Citadel
+351,VMI,VMI
+352,WCU,Western Carolina
+353,WOF,Wofford
+354,Southland,Southland
+355,ACU,Abilene Christian
+356,UCA,Central Arkansas
+357,HBU,Houston Baptist
+358,IW,Incarnate Word
+359,LAM,Lamar
+360,MCNS,McNeese State
+361,NICH,Nicholls State
+362,NWST,Northwestern State
+363,SHSU,Sam Houston State
+364,SELA,Southeastern Louisiana
+365,SFA,Stephen F. Austin
+366,SWAC,SWAC
+367,AAMU,Alabama A&M
+368,ALST,Alabama State
+369,ALCN,Alcorn State
+370,ARPB,Arkansas-Pine Bluff
+371,GRAM,Grambling State
+372,JKST,Jackson State
+373,MVSU,Mississippi Valley State
+374,PV,Prairie View A&M
+375,SOU,Southern University
+376,TXSO,Texas Southern
+377,XAV,Xavier
+378,DUK,Duke
+379,VIL,Villanova
+380,STH,Seton Hall
+381,MQT,Marquette
+382,CRE,Creighton
+383,PRV,Providence
+384,DEP,DePaul
+385,STJ,St Johns
