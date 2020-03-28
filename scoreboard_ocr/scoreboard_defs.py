@@ -1,8 +1,9 @@
 import pandas as pd
 import numpy as np
 from fuzzywuzzy import fuzz
-from scoreboard_map import team1, team2, score1, score2, time_clock
-from functions import map_leds, ocr_text, process_img
+from scoreboard_ocr.scoreboard_map import team1, team2, score1, score2, time_clock
+from scoreboard_ocr.alphabet_3x5 import alphabet_3x5
+from scoreboard_ocr.functions import map_leds, ocr_text, process_img
 
 class scoreboard:
     """
@@ -36,13 +37,13 @@ class scoreboard:
 
     def read_scoreboard_screen(self):
         while(True):
-            image = np.array(ImageGrab.grab(scoreboard.bbox))
+            image = np.array(ImageGrab.grab(self.bbox))
 
             results = []
             pimg = process_img(image)
 
             # loop over the bounding boxes
-            for (startX, startY, endX, endY) in scoreboard.boxes:
+            for (startX, startY, endX, endY) in self.boxes:
                 # extract the actual padded ROI
                 roi = pimg[startY:endY, startX:endX]
                 text = ocr_text(img=roi, psm="7")
@@ -62,7 +63,7 @@ class scoreboard:
                 self.play_clock = results[5][1]
 
     def translate_team(self, team_text):
-        if len(team_text)<=3:
+        if len(team_text) <= 3:
             return team_text
         else:
             possible_teams = self.team_defs
@@ -73,50 +74,63 @@ class scoreboard:
             return team_match
 
     def make_team_acronyms(self):
-        self.team_1_tla = translate_team(self.team_1)
-        self.team_2_tla = translate_team(self.team_2)
+        self.team_1_tla = self.translate_team(self.team_1)
+        self.team_2_tla = self.translate_team(self.team_2)
 
-    def create_scoreboard(self):
+    def create_scoreboard_maps(self):
         # Teams
-        t1_c1 = make_led_map(team1['char1'], self.team_1_tla[0])
-        t1_c2 = make_led_map(team1['char2'], self.team_1_tla[1])
-        t1_c3 = make_led_map(team1['char3'], self.team_1_tla[2])
+        self.t1_c1 = self.make_led_map(team1['char1'], alphabet_3x5[self.team_1_tla[0]])
+        self.t1_c2 = self.make_led_map(team1['char2'], alphabet_3x5[self.team_1_tla[1]])
+        self.t1_c3 = self.make_led_map(team1['char3'], alphabet_3x5[self.team_1_tla[2]])
 
-        t1_c1 = make_led_map(team2['char1'], self.team_2_tla[0])
-        t1_c1 = make_led_map(team2['char2'], self.team_2_tla[1])
-        t1_c1 = make_led_map(team2['char3'], self.team_2_tla[2])
+        self.t2_c1 = self.make_led_map(team2['char1'], alphabet_3x5[self.team_2_tla[0]])
+        self.t2_c2 = self.make_led_map(team2['char2'], alphabet_3x5[self.team_2_tla[1]])
+        self.t2_c3 = self.make_led_map(team2['char3'], alphabet_3x5[self.team_2_tla[2]])
 
         # Change digit location depending on length
-        if len(self.score_1):
-            s1_c1 = make_led_map(score1['dig1_char1'], self.score_1[0])
-
-        if len(self.score_1):
-            s1_c1 = make_led_map(score1['dig2_char1'], self.score_1[0])
-            s1_c2 = make_led_map(score1['dig2_char2'], self.score_1[1])
-
-        if len(self.score_1):
-            s1_c1 = make_led_map(score1['dig3_char1'], self.score_1[0])
-            s1_c2 = make_led_map(score1['dig3_char2'], self.score_1[1])
-            s1_c3 = make_led_map(score1['dig3_char3'], self.score_1[2])
+        if len(self.score_1) == 1:
+            self.s1_c1 = self.make_led_map(score1['dig1_char1'], alphabet_3x5[self.score_1[0]])
+            self.s1_c2 = self.make_led_map(score1['dig1_char2'], ([0]*15))
+            self.s1_c3 = self.make_led_map(score1['dig1_char3'], ([0]*15))
+        if len(self.score_1) == 2:
+            self.s1_c1 = self.make_led_map(score1['dig2_char1'], alphabet_3x5[self.score_1[0]])
+            self.s1_c2 = self.make_led_map(score1['dig2_char2'], alphabet_3x5[self.score_1[1]])
+            self.s1_c3 = self.make_led_map(score1['dig2_char3'], ([0]*20))
+        if len(self.score_1) == 3:
+            self.s1_c1 = self.make_led_map(score1['dig3_char1'], alphabet_3x5[self.score_1[0]])
+            self.s1_c2 = self.make_led_map(score1['dig3_char2'], alphabet_3x5[self.score_1[1]])
+            self.s1_c3 = self.make_led_map(score1['dig3_char3'], alphabet_3x5[self.score_1[2]])
 
         # Team 2
-        if len(self.score_2):
-            s2_c1 = make_led_map(score2['dig1_char1'], self.score_2[0])
-
-        if len(self.score_2):
-            s2_c1 = make_led_map(score2['dig2_char1'], self.score_2[0])
-            s2_c2 = make_led_map(score2['dig2_char2'], self.score_2[1])
-
-        if len(self.score_2):
-            s2_c1 = make_led_map(score2['dig3_char1'], self.score_2[0])
-            s2_c2 = make_led_map(score2['dig3_char2'], self.score_2[1])
-            s2_c3 = make_led_map(score2['dig3_char3'], self.score_2[2])
+        if len(self.score_2) == 1:
+            self.s2_c1 = self.make_led_map(score2['dig1_char1'], alphabet_3x5[self.score_2[0]])
+            self.s2_c2 = self.make_led_map(score2['dig1_char2'], ([0]*15))
+            self.s2_c3 = self.make_led_map(score2['dig1_char3'], ([0]*15))
+        if len(self.score_2) == 2:
+            self.s2_c1 = self.make_led_map(score2['dig2_char1'], alphabet_3x5[self.score_2[0]])
+            self.s2_c2 = self.make_led_map(score2['dig2_char2'], alphabet_3x5[self.score_2[1]])
+            self.s2_c3 = self.make_led_map(score2['dig2_char3'], ([0]*20))
+        if len(self.score_2) == 3:
+            self.s2_c1 = self.make_led_map(score2['dig3_char1'], alphabet_3x5[self.score_2[0]])
+            self.s2_c2 = self.make_led_map(score2['dig3_char2'], alphabet_3x5[self.score_2[1]])
+            self.s2_c3 = self.make_led_map(score2['dig3_char3'], alphabet_3x5[self.score_2[2]])
 
         # Time Clock
-        t1_c1 = make_led_map(time_clock['clock_dig1'], self.game_clock[0])
-        t1_c1 = make_led_map(time_clock['clock_dig2'], self.game_clock[1])
-        t1_c1 = make_led_map(time_clock['clock_dig3'], self.game_clock[2])
-        t1_c1 = make_led_map(time_clock['clock_dig4'], self.game_clock[3])
+        self.gc_c1 = self.make_led_map(time_clock['clock_dig1'], alphabet_3x5[self.game_clock[0]])
+        self.gc_c2 = self.make_led_map(time_clock['clock_dig2'], alphabet_3x5[self.game_clock[1]])
+        self.gc_c3 = self.make_led_map(time_clock['clock_dig3'], alphabet_3x5[self.game_clock[3]])
+        self.gc_c4 = self.make_led_map(time_clock['clock_dig4'], alphabet_3x5[self.game_clock[4]])
+
+        self.scoreboard_mappings = {**self.t1_c1, **self.t1_c2, **self.t1_c3,
+                                    **self.t2_c1, **self.t2_c2, **self.t2_c3,
+                                    **self.s1_c1, **self.s1_c2, **self.s1_c3,
+                                    **self.s2_c1, **self.s2_c2, **self.s2_c3,
+                                    **self.gc_c1, **self.gc_c2, **self.gc_c3, **self.gc_c4
+                                    }
+
+    def make_scoreboard(self):
+        self.full_scoreboard = dict(zip(np.array(range(0,442)), ([0]*442)))
+        self.full_scoreboard.update(self.scoreboard_mappings)
 
     def make_led_map(self, placement, character):
         led_map = dict(zip(placement, character))
@@ -124,9 +138,21 @@ class scoreboard:
 
     def print_scoreboard(self, mode="simple"):
         if mode == 'simple':
-            print(self.team_1+": "+self.score_1+"  -  "+self.team_2+": "+self.score_2" with "+self.play_clock+" remaining.")
+            print(self.team_1+": "+self.score_1+"  -  "+self.team_2+": "+self.score_2+" with "+self.game_clock+" remaining.")
         if mode == 'leds':
-            led_board = self.led_map
+            from scoreboard_ocr.scoreboard_display import scoreboard_display
+            scoreboard_done = []
+            for row in scoreboard_display:
+                if any(int(x) in self.full_scoreboard for x in row):
+                    newrow = [str(self.full_scoreboard[int(k)]) for k in row if int(k) in self.full_scoreboard]
+                    newrow = [' ' if x == '0' else 'O' for x in newrow]
+                    scoreboard_done.append(newrow)
+                else:
+                    scoreboard_done.append([' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',
+                                            ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ',
+                                            ' ', ' ', ' ', ' ', ' ', ' '])
+            print('\n'.join([''.join(['{:4}'.format(item) for item in row])
+                             for row in scoreboard_done]))
 
 # Current pre-programmed scoreboards
 premleague_nbc = scoreboard(bbox=(68,75,720,123),
